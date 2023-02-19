@@ -11,7 +11,7 @@ function App() {
   const [isSending, setIsSending] = useState(false);
 
   async function sendGpt(text) {
-    const apiKey = "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";
+    const apiKey = "Enter your Api key";
     const prompt = text;
     setIsSending(true);
   
