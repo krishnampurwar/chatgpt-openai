@@ -1,0 +1,64 @@
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.inputbox{
+    width: 80%;
+    display:flex ;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+   
+}
+input{
+  
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-image: linear-gradient(to right , #1444a9, #d602b3) 10;
+  border-width: 3px;
+  margin-top: 5%;
+padding: 18px;
+border-radius: 5px;
+}
+#commands{
+    width: 70%;
+   
+}
+.inputbox button{
+background-color: transparent;
+color: aliceblue;
+margin-top: 30px;
+border: none;
+font-size: larger;
+
+
+
+}
+#btn{
+    background-color: grey;
+    color: white;
+    border: none ;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+#btn:hover{
+    background-color: rgb(59, 201, 40);
+}
+
+@media (max-width: 600px) {
+   input{
+    width: 80%;
+   }
+}
+
+
+

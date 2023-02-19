@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+   
+    width: 90%;
+    flex-direction: column;
+    border: solid grey 2px;
+    border-radius: 5px;
+    margin: 5%;
+
+}
+h1{
+    font-size: larger;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contents{
+    width: 15%;
+    height: fit-content;
+    display:inline-flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+}
+
+#sighn{
+    position: relative;
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   margin-left: 4%;
+   padding: 4px;
+   font-size: large;
+   width: fit-content;
+   
+}
+#sighn:hover{
+    background-color: rgb(59, 201, 40);
+}
+#sighn1{
+   
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+
+   
+ width: fit-content;
+ margin-right: 15px;
+   
+}
+
+
+
+.responce{
+    background-color: transparent;
+    color: rgb(235, 235, 235);
+    height: 200px;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-y: scroll ;
+ 
+ 
+}
+#borderspan{
+    width: 100%;
+    background-color: grey;
+    height: 1px;
+}
+@media (max-width:800px) {
+    h1{
+        font-size: large;
+    }
+    .head{
+        justify-content: space-around;
+    }
+   
+}
+@media (max-width:330px) {
+    h1{
+
+        font-size: 16px;
+      margin-right: 5%;
+    }
+    .head{
+        justify-content: space-evenly;
+    }
+    
+}
